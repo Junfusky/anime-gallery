@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+:root {
+    --light_blue: #99CCFF;
+    --med_blue:#3399CC;
+    --dark_blue: #336699;
+}
+
+body {
+    background-color: var(--light_blue);
+    font-family: "Open sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+section img {
+    object-fit: cover;
+}
+
+#title {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: var(--dark_blue);
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    font-family: "changa one", sans-serif;
+    font-size: 6em;
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+h2 {
+    font-family: "changa one", sans-serif;
+    font-size: 3em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+nav {
+    background-color: var(--med_blue);
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 1000;
+    padding: 15px 10px;
+}
+
+nav a.selected, nav a:hover {
+    color: var(--dark_blue);
+}
+
+footer {
+    font-size: 0.85em;
+    text-align: center;
+    color: #999999;
+    padding-top: 50px;
+    clear: both;
+}
+
+#gallery {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 2.5%;
+    font-size: 0.75em;
+    color: #666666;
+}
+
+img {
+    max-width: 100%;
+}
+
+.profile-photo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0 0 1em 1em;
+}
+
+section p {
+    margin: 0;
+    padding: 2.5%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.contact {
+    float: initial;
+    width: 60%;
+    margin: 2.5%;
+    padding: 0;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 0 0 0 40px;
+    margin: 0 0 10px;
+}
+
+.contact-info li {
+    color: var(--dark_blue);
+}
+
+.contact-info li.phone a {
+    background-image: url("/img/phone.png");
+}
+.contact-info li.email a {
+    background-image: url("/img/email.png");
+}
+.contact-info li.twitter a {
+    background-image: url("/img/twitter.png");
+}
+.contact-info li.github a {
+    background-image: url("/img/github.png");
+}
